@@ -39,6 +39,7 @@
 #import <Parse/PFUser+Synchronous.h>
 #import <Parse/PFUser+Deprecated.h>
 #import <Parse/PFUserAuthenticationDelegate.h>
+#import <Parse/PFDecoder.h>
 
 #if TARGET_OS_IOS
 

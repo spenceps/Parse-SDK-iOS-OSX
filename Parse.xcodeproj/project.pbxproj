@@ -3452,8 +3452,8 @@
 		91115EF71A097AF30092D1C9 /* PFEventuallyPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFEventuallyPin.h; sourceTree = "<group>"; };
 		91115EF81A097AF30092D1C9 /* PFEventuallyPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFEventuallyPin.m; sourceTree = "<group>"; };
 		913B9F2C1A311FF40040247C /* PFCommandCache_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFCommandCache_Private.h; sourceTree = "<group>"; };
-		919311D519AE5EB20008FF12 /* PFDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFDecoder.h; sourceTree = "<group>"; };
-		919311D619AE5EB20008FF12 /* PFDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFDecoder.m; sourceTree = "<group>"; };
+		919311D519AE5EB20008FF12 /* PFDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PFDecoder.h; path = Internal/PFDecoder.h; sourceTree = "<group>"; };
+		919311D619AE5EB20008FF12 /* PFDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PFDecoder.m; path = Internal/PFDecoder.m; sourceTree = "<group>"; };
 		91DF24901A09BA7600CFC7D4 /* PFEventuallyQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFEventuallyQueue.h; sourceTree = "<group>"; };
 		91DF24911A09BA7600CFC7D4 /* PFEventuallyQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFEventuallyQueue.m; sourceTree = "<group>"; };
 		91DF24941A09BAF100CFC7D4 /* PFPinningEventuallyQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFPinningEventuallyQueue.h; sourceTree = "<group>"; };
@@ -3640,6 +3640,8 @@
 				09809FB81434F98C00EC3E74 /* Resources */,
 				09EEA12D1434FB1F00E3A3FA /* Parse.h */,
 				09EEA12E1434FB1F00E3A3FA /* Parse.m */,
+				919311D519AE5EB20008FF12 /* PFDecoder.h */,
+				919311D619AE5EB20008FF12 /* PFDecoder.m */,
 				F5B64D891BFA646C0038F3CB /* ParseClientConfiguration.h */,
 				F5B64D8A1BFA646C0038F3CB /* ParseClientConfiguration.m */,
 				64C47802147336C70092082F /* PFACL.h */,
@@ -3746,8 +3748,6 @@
 				F556643F1C10F37E006DEC12 /* ParseClientConfiguration_Private.h */,
 				81068EEF1AE0845D00A34D13 /* PFEncoder.h */,
 				81068EF01AE0845D00A34D13 /* PFEncoder.m */,
-				919311D519AE5EB20008FF12 /* PFDecoder.h */,
-				919311D619AE5EB20008FF12 /* PFDecoder.m */,
 				81BB6E1F1B0E7A1A00465C38 /* PFBase64Encoder.h */,
 				81BB6E201B0E7A1A00465C38 /* PFBase64Encoder.m */,
 				815618FE1A1F79AC0076504A /* PFDateFormatter.h */,
