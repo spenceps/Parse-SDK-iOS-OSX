@@ -89,6 +89,9 @@
 ///--------------------------------------
 
 - (BFTask *)getCurrentUserAsyncWithOptions:(PFCurrentUserLoadingOptions)options {
+    if (_currentUser) {
+        return [BFTask taskWithResult:_currentUser];
+    }
     return [_dataTaskQueue enqueue:^id(BFTask *task) {
         return [self _getCurrentUserAsyncWithOptions:options];
     }];
